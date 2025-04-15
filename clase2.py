@@ -2,7 +2,7 @@
 from pymongo import MongoClient
 
 # esta uri es propia de su cluster de mongo db
-uri = "mongodb+srv://admin1:admin@bbddnosql.4zb9ljj.mongodb.net/?retryWrites=true&w=majority&appName=BBDDNoSql"
+uri = "mongodb+srv://<db_username>:<db_password>@bbddnosql.4zb9ljj.mongodb.net/?retryWrites=true&w=majority&appName=BBDDNoSql"
 """mongodb+srv://<db_username>:<db_password>@bbddnosql.4zb9ljj.mongodb.net/?retryWrites=true&w=majority&appName=BBDDNoSql
 <db_username> = nombre de usuario
 <db_password> = contraseña de usuario
